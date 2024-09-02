@@ -1,0 +1,6 @@
+math = float (input("Please Enter Your Math Score"))
+english = int (input("Please Enter Your English Score"))
+music = float (input("Please Enter Your Music Score"))
+spanish = int (input("Please Enter Your Spanish Score"))
+biology = float (input("Please Enter Your Biology Score"))
+print((math + english + music + spanish + biology))

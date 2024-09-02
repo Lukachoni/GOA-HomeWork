@@ -1,0 +1,11 @@
+print (True or False)
+print (5>2 and 8>10)
+print (23>30)
+print (False or True)
+print (90>89)
+print (False or True)
+print (2890>2450)
+print (123>321)
+print (99999999999999999>999999999999999)
+print (1211>511)
+

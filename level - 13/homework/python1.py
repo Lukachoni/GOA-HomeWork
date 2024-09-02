@@ -1,0 +1,7 @@
+num1 =int (input ("Please Enter Your num: "))
+num2 =int (input ("Please Enter Your num: "))
+num3 =int (input ("Please Enter Your num: "))
+print (num1 + num2 + num3)
+print (num1 - num2 - num3)
+print (num1 * num2 * num3)
+print (num1 / num2 / num3)

@@ -1,0 +1,5 @@
+num1 = input ("How much do you like Goa? rate 1 to 10: ")
+num2 = input ("what chance do you think do you have to be Chad?: ")
+num3 = input ("are you ready to become chad?: ")
+print (num1 + num2 + num3)
+print ("total chance of being CHAD!")

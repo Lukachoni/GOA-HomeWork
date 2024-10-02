@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scan Form</title>
+</head>
+<body>
+    <h3>Scan Form</h3>
+    <form>
+        <label>Scan for:</label>
+        <select name="scan">
+            <option value="active_directory">Active Directory</option>
+            <option value="network_devices">Network Devices</option>
+            <option value="web_servers">Web Servers</option>
+        </select>
+        <br><br>
+
+        <label>Fully-qualified domain name:</label>
+        <input type="text" name="fqdn">
+        <br><br>
+
+        <label>Organizational Unit:</label>
+        <input type="text" name="org_unit">
+        <br><br>
+
+        <label>Domain controller:</label>
+        <input type="text" name="domain_controller">
+        <br><br>
+
+        <label>Username:</label>
+        <input type="text" name="username">
+        <br><br>
+
+        <label>Password:</label>
+        <input type="password" name="password">
+        <br><br>
+
+        <input type="submit" value="Add to Scan">
+        <input type="button" value="Exclude from Scan">
+    </form>
+</body>
+</html>

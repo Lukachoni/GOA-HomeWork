@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ფერების სისტემები</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #4B0082; /* ინდიგო */
+        }
+        section {
+            border: 2px solid #ccc;
+            border-radius: 8px;
+            padding: 15px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .rgb {
+            background-color: rgb(255, 0, 0); /* წითელი */
+            color: white;
+        }
+        .hex {
+            background-color: #00FF00; /* მწვანე */
+            color: black;
+        }
+        .hsl {
+            background-color: hsl(240, 100%, 50%); /* ლურჯი */
+            color: white;
+        }
+        p {
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>ფერების სისტემები</h1>
+
+    <section class="rgb">
+        <h2>RGB (Red, Green, Blue)</h2>
+        <p>RGB სისტემა აღნიშნავს ფერების შექმნის პროცესს, რომელშიც ერთმანეთს ერთვის წითელი, მწვანე და ლურჯი ფერები. თითოეული ფერის ინტენსივობა 0-დან 255-მდე დიაპაზონში მერყეობს. როდესაც ფერების ყველა კომპონენტი მაქსიმუმზეა, იქმნება თეთრი ფერი, ხოლო მინიმუმზე - შავი.</p>
+    </section>
+
+    <section class="hex">
+        <h2>HEX (Hexadecimal)</h2>
+        <p>HEX სისტემა წარმოადგენს RGB სისტემის ფერების კოდირების მეთოდს, რომელიც იყენებს 16-იან სისტემას. HEX კოდი იწყება ნიშნით # და შემდეგ მოიცავს 6 სიმბოლოს, რაც აღნიშნავს წითელი, მწვანე და ლურჯი ფერის ინტენსივობას.</p>
+    </section>
+
+    <section class="hsl">
+        <h2>HSL (Hue, Saturation, Lightness)</h2>
+        <p>HSL სისტემა განიხილავს ფერის ნიშანებით, როგორიცაა ფერის ელფერი (Hue), გადაჭიმულობა (Saturation) და განათება (Lightness). HSL სისტემაში ფერი აღწერილია ციკლურად, რაც მოიცავს 360 გრადუსს, რაც წარმოადგენს ელფერის სპექტრს.</p>
+    </section>
+
+</body>
+</html>

@@ -1,10 +1,10 @@
 from turtle import *
 
 
-#we want to paint a house
+
 
 speed(30)
-#step 1:   draw a square
+
 width(7)
 color("purple")
 forward (200)

@@ -1,0 +1,11 @@
+.image-container {
+    text-align: center;
+    margin: 50px;
+}
+
+.image-container img {
+    border: 5px solid #8c56b8; 
+    border-radius: 10cm; 
+    width: 500px; 
+    height: auto; 
+} 

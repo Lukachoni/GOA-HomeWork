@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #74b9ff, #0984e3); 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+}
+
+table {
+    width: 80%; 
+    background: #00b894; 
+    color: white; 
+    border-collapse: collapse;
+}
+
+caption {
+    font-size: 1.5em; 
+    margin-bottom: 10px;
+}
+
+th, td {
+    padding: 10px; 
+    border: 1px solid #ddd;
+}
+
+th { 
+    background: #00cec9; 
+    position: sticky; 
+    top: 0; 
+}
+
+tr:nth-child(even) { 
+    background: #009688; 
+}

@@ -1,0 +1,56 @@
+body {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    transition: all 0.3s ease; /* Smooth transitions for hover effects */
+}
+
+/* ფერები */
+.red {
+    background-color: red;
+    transform: rotate(0deg); 
+}
+
+.blue {
+    background-color: blue;
+    transform: scale(1); 
+}
+
+.green {
+    background-color: green;
+    transform: translateX(0); 
+}
+
+.yellow {
+    background-color: yellow;
+    transform: skew(0deg); 
+}
+
+
+.red:hover {
+    transform: rotate(45deg); 
+    background-color: #ffaaaa; 
+}
+
+.blue:hover {
+    transform: scale(1.5); 
+    background-color: #aaaaff; 
+}
+
+.green:hover {
+    transform: translateX(50px); 
+    background-color: #aaffaa; 
+}
+
+.yellow:hover {
+    transform: skew(20deg); 
+    background-color: #ffffaa; 
+}

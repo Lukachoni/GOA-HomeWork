@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .static {
+    position: static;
+    background-color: lightgray;
+    padding: 20px;
+    border: 2px solid black;
+  }
+  
+  .relative {
+    position: relative;
+    background-color: lightblue;
+    padding: 20px;
+    border: 2px solid black;
+    left: 20px;
+    top: 10px;
+  }
+  
+  .absolute {
+    position: absolute;
+    background-color: lightgreen;
+    padding: 20px;
+    border: 2px solid black;
+    top: 150px;
+    left: 50px;
+  }
+  
+  .fixed {
+    position: fixed;
+    background-color: lightcoral;
+    padding: 20px;
+    border: 2px solid black;
+    top: 10px;
+    right: 10px;
+  }
+  

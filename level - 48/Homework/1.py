@@ -1,3 +1,4 @@
+#gaaketet es 1-ze codewars rom imushavos
 def get_grade(s1, s2, s3):
     mean = sum([s1,s2,s3])/3
     if mean>=90: return 'A'

@@ -1,0 +1,88 @@
+.custom-background{
+    background-image: url(https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/sites/26690/images/bf0b044-012f-5541-235-6e3b5ce8b714_Untitled_design_-_2023-05-28T191349.280.jpg);
+    padding: 200px;
+    border: 1 solid black;
+    margin: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.navbar {
+    position: sticky; 
+    top: 0; 
+    background-color: #ff6600; 
+    color: white; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 10px 20px; 
+    z-index: 1000; 
+  }
+  
+  .navbar .logo {
+    font-size: 1.5rem; 
+    font-weight: bold; }
+  
+  .navbar ul {
+    list-style: none; 
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar ul li {
+    margin: 0 10px; 
+  }
+  
+  .navbar ul li a {
+    text-decoration: none;
+    color: white; 
+    font-size: 1rem; /
+  }
+  
+  .navbar ul li a:hover {
+    text-decoration: underline; 
+  }
+  
+
+

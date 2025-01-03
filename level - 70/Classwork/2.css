@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 60px 100px 1fr 50px;
+    grid-template-areas:
+        "header header header header"
+        "box1 box2 box3 sidebar"
+        "main main main sidebar"
+        "footer footer footer footer";
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+div {
+    background: orange;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 1em;
+}
+
+.header {
+    grid-area: header;
+    font-size: 1.5em;
+    padding: 20px;
+}
+
+.box1, .box2, .box3 {
+    grid-area: auto;
+}
+
+.box1 { grid-area: box1; }
+.box2 { grid-area: box2; }
+.box3 { grid-area: box3; }
+
+.sidebar {
+    grid-area: sidebar;
+}
+
+.main-content {
+    grid-area: main;
+    padding: 20px;
+    font-size: 1.2em;
+}
+
+.footer {
+    grid-area: footer;
+    font-size: 1em;
+}

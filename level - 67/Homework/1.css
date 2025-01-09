@@ -1,0 +1,86 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #1a1a3d, #2b0052);
+    color: white;
+    text-align: center;
+  }
+  
+  .container {
+    padding: 20px;
+  }
+  
+  .header h1 {
+    font-size: 24px;
+    color: #ff6363;
+  }
+  
+  .content h2 {
+    font-size: 32px;
+    margin: 20px 0 10px;
+  }
+  
+  .highlight {
+    color: #ff9b51;
+  }
+  
+  .email {
+    color: #ff9b51;
+    font-weight: bold;
+  }
+  
+  .ticket {
+    background-color: #2b0052;
+    border: 2px solid #ff6363;
+    border-radius: 10px;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 300px;
+  }
+  
+  .ticket-header {
+    text-align: left;
+  }
+  
+  .ticket-header h3 {
+    font-size: 18px;
+    color: #ff9b51;
+    margin: 0;
+  }
+  
+  .ticket-header p {
+    font-size: 14px;
+    margin: 5px 0 10px;
+  }
+  
+  .ticket-body {
+    display: flex;
+    align-items: center;
+    text-align: left;
+  }
+  
+  .avatar {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  .info .name {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .info .username {
+    font-size: 14px;
+    color: #aaa;
+  }
+  
+  .ticket-footer {
+    text-align: right;
+    font-size: 12px;
+    color: #aaa;
+  }
+  

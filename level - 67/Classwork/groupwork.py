@@ -1,0 +1,1 @@
+print (me lideri ara var da failebi ar maqvs!)

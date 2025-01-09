@@ -1,0 +1,11 @@
+.box {
+    background: lightgreen;
+    padding: 20px;
+    text-align: center;
+    width: 100px;
+    transition: transform 0.5s; 
+}
+
+.box:hover {
+    transform: rotate(45deg); 
+}

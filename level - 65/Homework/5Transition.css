@@ -1,0 +1,13 @@
+.box {
+    background: lightcoral;
+    padding: 20px;
+    text-align: center;
+    width: 100px;
+    animation: moveBox 2s infinite;/
+}
+
+@keyframes moveBox {
+    0% { transform: translateX(0); } 
+    50% { transform: translateX(200px); } 
+    100% { transform: translateX(0); } 
+}

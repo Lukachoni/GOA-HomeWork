@@ -1,0 +1,111 @@
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #f8f8f8;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+<<<<<<< HEAD
+ 
+=======
+  
+>>>>>>> add34d1a6e31a799d4d0f2aa18e3bc5b08faaa17
+  .logo {
+    font-size: 36px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+  }
+  
+<<<<<<< HEAD
+  
+=======
+ 
+>>>>>>> add34d1a6e31a799d4d0f2aa18e3bc5b08faaa17
+  .headline {
+    font-size: 28px;
+    margin: 0;
+  }
+  
+  .headline span {
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  .subtext {
+    font-size: 18px;
+    margin: 10px 0 30px;
+    color: #666;
+  }
+  
+  
+  .subscribe-form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 40px;
+  }
+  
+  .email-input {
+    padding: 10px 15px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+  }
+  
+  .notify-button {
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .notify-button:hover {
+    background-color: #0056b3;
+  }
+  
+<<<<<<< HEAD
+  
+=======
+
+>>>>>>> add34d1a6e31a799d4d0f2aa18e3bc5b08faaa17
+  .mockup {
+    margin: 20px auto;
+  }
+  
+  .mockup img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  
+  footer {
+    margin-top: 40px;
+    font-size: 14px;
+  }
+  
+  .social-links a {
+    margin: 0 10px;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .social-links a:hover {
+    text-decoration: underline;
+  }
+  
+  .copyright {
+    margin-top: 10px;
+    color: #999;
+  }
+  

@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f8f8f8;
+  }
+  
+  .action-button {
+    margin: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .action-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .clickable-image {
+    max-width: 300px;
+    margin: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .clickable-table {
+    margin: 20px;
+    width: 80%;
+    border-collapse: collapse;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .clickable-table th,
+  .clickable-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  .clickable-table th {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .clickable-table td:hover {
+    background-color: #f0f0f0;
+  }
+  
